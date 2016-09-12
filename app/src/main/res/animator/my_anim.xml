@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Rotate. -->
+    <objectAnimator
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="scaleY"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:duration="2" />
+
+    <!-- Rotate. -->
+    <objectAnimator
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="scaleX"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:duration="2" />
+</set>
